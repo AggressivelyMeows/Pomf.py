@@ -1,7 +1,7 @@
 # Pomf.py
-Pomf.se uploader in Python3.5+
+Pomf.se uploader made in Python3.5+.
 
-This script makes it so you can upload to any pomf.se site, only requiring the url of the site.
+This script makes it so you can upload to any pomf.se site, only requiring the url of the site. The script is also small enough to be taken wherever you need it to go, only taking up a single file. This script also needs `requests` but seeing as thats such a widely installed module, i dont think anyone DOESNT have it installed!
 
 ## Getting started
 To get started with pomf.py first you must have Python 3.5 or higher as it makes use of asyncio. There is a non-async version you can download in the Github if you want to use it on anything below Python3.5. 
