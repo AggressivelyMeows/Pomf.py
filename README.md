@@ -28,3 +28,14 @@ If you want to use pomf.py with asyncio, you can add a `_async` to the upload th
 await host.upload_async(open('hearts.png', 'rb'))
 # {'hash': 'f6bb5ef07fe63759ecfac1c81193c5912b96c45b', 'name': 'hearts.png', 'url': 'https://my.mixtape.moe/hsoali.png', 'size': 25553}
 ```
+
+### Pre-installed Hosts
+Here are the hosts that are ready to be used with the script out of the box. 
+```py
+# mixtape - https://mixtape.moe
+pomf.get_host('mixtape')
+# safe - https://safe.moe
+pomf.get_host('safe')
+# void - https://void.cat
+pomf.get_host('void')
+```
